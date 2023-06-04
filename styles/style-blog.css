@@ -1,0 +1,76 @@
+:root {
+    --background-color: #f5f2fe;
+  }
+  
+  .fix-top {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 1030;
+  }
+  
+  .name {
+    font-size: 76px;
+  }
+
+  .h2 {
+    font-size: 36px;
+    opacity: 0.8;
+  }
+
+  .blog {
+    font-weight: 600;
+  }
+
+  footer {
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    padding: 5px;
+  }
+
+  .messeg{
+    display: block;
+    text-align: center;
+    border-bottom: 2px solid black;
+  }
+  .contact-block {
+    padding: 5px;
+    display: flex;
+    justify-content:space-evenly;
+    border-radius: 5px;
+ }
+  
+ i {
+  font-size: 24px;
+  transition: ease-in-out 280ms;
+  color: black;
+ }
+
+ i:hover {
+  font-size: 28px;
+  color: black;
+  background-color:  yellow;
+  border-radius: 5px;
+  padding: 5px;
+ }
+
+  @media (max-width:576px){
+    .name {
+      font-size: 38px;
+      text-align: center;
+    }
+  
+    .h2 {
+      font-size: 22px;
+      text-align: center;
+    }
+
+    .blog {
+      text-align: center;
+    }
+    footer {
+      margin-top: 20px;
+    }
+  }
