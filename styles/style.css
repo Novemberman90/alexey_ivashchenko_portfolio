@@ -152,7 +152,10 @@
       margin-bottom: 300px;
     }
 
-    .yoga, 
+    .yoga {
+      margin: 25px 0px 0px 0px;
+    }
+     
     .coffe-img{
         margin-bottom: 20px;
     }
