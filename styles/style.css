@@ -6,7 +6,9 @@
     --color-white: white;
     --color-black: black;
   }
-
+  html {
+    scroll-behavior: smooth;
+  }
   body{
     margin: 50px 0;
   }
@@ -86,8 +88,7 @@
   
 
   .yoga {
-    position: relative;
-    width: 550px;
+    
     height: auto;
     background-color: var(--background-img);
   }
