@@ -97,10 +97,17 @@
     background-color: var(--background-ukr);
     border: solid 1px var(--color-black);
   }
+
+  .btn-weather-react {
+    position: relative;
+    background-color: var(--background-blueblue);
+    border: solid 1px var(--color-black);
+    color: var(--color-white);
+  }
   
   .btn-weather {
     position: relative;
-    background-color: var(--background-blueblue);
+    background-color: var(--background-ukr);
     border: solid 1px var(--color-black);
     color: var(--color-white);
   }
@@ -123,7 +130,7 @@
   }
   
   .btn-coffee {
-    background-color: var(--background-ukr);
+    background-color: var(--background-blueblue);
     border: solid 1px var(--color-black);
   }
 
