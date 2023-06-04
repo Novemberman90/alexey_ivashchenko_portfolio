@@ -2,6 +2,9 @@
     --background-color: #f5f2fe;
   }
   
+  html {
+    scroll-behavior: smooth;
+  }
   .fix-top {
     position: fixed;
     left: 0;
