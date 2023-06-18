@@ -419,10 +419,13 @@
     .carousel {
         left: -672px;
     }
-    
+    .item__img  {
+      width: 270px;
+    }
+
     .item,
     .item__wrapper {
-      width: 587px;
+      width: 568px;
       margin: 0px 0px 0px 0px;
     }
 
@@ -441,45 +444,7 @@
     }
     
     @keyframes move-left {
-      from {left: -530px;}
-      to {left: 0px;}
-    }
-    
-    .transition-left {
-      animation-name: move-left;
-      animation-duration: 1s;
-    }
-
-  }
-  
-  @media (max-width:478px) {
-
-    .carousel {
-        left: -672px;
-    }
-    
-    .item,
-    .item__wrapper {
-      width: 570px;
-      margin: 0px 0px 0px 0px;
-    }
-
-    @keyframes move-right {
-      from {
-        left: -672px;
-      }
-      to {
-        left: -1240px;
-      }
-    }
-    
-    .transition-right {
-      animation-name: move-right;
-      animation-duration: 1s;
-    }
-    
-    @keyframes move-left {
-      from {left: -530px;}
+      from {left: -568px;}
       to {left: 0px;}
     }
     
@@ -491,9 +456,17 @@
   }
   
 
-  
 
   @media (max-width:478px) {
+
+    .description-text {
+      width: 270px;
+
+    }
+
+    .item__img {
+      width: 270px;
+    }
 
     .carousel {
         left: -672px;
@@ -501,7 +474,7 @@
     
     .item,
     .item__wrapper {
-      width: 570px;
+      width: 568px;
       margin: 0px 0px 0px 0px;
     }
 
@@ -520,7 +493,7 @@
     }
     
     @keyframes move-left {
-      from {left: -530px;}
+      from {left: -568px;}
       to {left: 0px;}
     }
     
