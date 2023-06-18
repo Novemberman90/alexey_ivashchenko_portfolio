@@ -26,7 +26,7 @@ const moveLeft = ()=> {
               <p class="type-work">${elemCard[value].typeOfWorck}</p>
               <p class="description-text">${elemCard[value].description}</p>
               </div>
-               <a href="${elemCard[value].link}" target="_blank" class="btn btn-primary  item-link"> Go to Projeckt </a> 
+               <a href="${elemCard[value].link}" target="_blank" class="btn btn-primary  item-link"> Go to Project </a> 
               </div>
           </div>`;
            prevTemplate += card; 
@@ -61,7 +61,7 @@ const moveRight = ()=> {
               <p class="type-work">${elemCard[value].typeOfWorck}</p>
               <p class="description-text">${elemCard[value].description}</p>
               </div>
-              <a href="${elemCard[value].link}" target="_blank" class="btn-primary btn item-link"> Go to Projeckt </a>
+              <a href="${elemCard[value].link}" target="_blank" class="btn-primary btn item-link"> Go to Project </a>
               </div>
           </div>`;
            prevTemplate += card; 
@@ -103,7 +103,7 @@ const createCardTemplateActive = () => {
           <p class="type-work">${elemCard[value].typeOfWorck}</p>
           <p class="description-text">${elemCard[value].description}</p>
           </div>
-          <a href="${elemCard[value].link}" target="_blank" class="btn-primary btn item-link"> Go to Projeckt </a>
+          <a href="${elemCard[value].link}" target="_blank" class="btn-primary btn item-link"> Go to Project </a>
         
           </div>
       </div>`;
@@ -139,7 +139,7 @@ const createCardTemplate = (direction) => {
           <p class="type-work">${elemCard[value].typeOfWorck}</p>
           <p class="description-text">${elemCard[value].description}</p>
           </div>
-          <a href="${elemCard[value].link}" target="_blank" class="btn-primary btn item-link"> Go to Projeckt </a>
+          <a href="${elemCard[value].link}" target="_blank" class="btn-primary btn item-link"> Go to Project </a>
         
           </div>
         </div>`;
