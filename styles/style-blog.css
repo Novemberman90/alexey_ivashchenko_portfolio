@@ -550,7 +550,7 @@
 
     .item,
     .item__wrapper {
-      width: 546px;
+      width: 542px;
       margin: 0px 0px 0px 0px;
     }
 
@@ -569,7 +569,7 @@
     }
     
     @keyframes move-left {
-      from {left: -530px;}
+      from {left: -542px;}
       to {left: 0px;}
     }
     
