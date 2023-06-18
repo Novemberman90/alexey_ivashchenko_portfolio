@@ -536,10 +536,17 @@
     .carousel {
         left: -672px;
     }
-    
+    .item__img {
+      width: 270px;
+    }
+
+    .description-text {
+      width: 270px;
+    }
+
     .item,
     .item__wrapper {
-      width: 566px;
+      width: 546px;
       margin: 0px 0px 0px 0px;
     }
 
