@@ -584,6 +584,7 @@
     .blog {
         
     font-size: 14px;
+    text-align: inherit;
     }
 
     .item__img {
