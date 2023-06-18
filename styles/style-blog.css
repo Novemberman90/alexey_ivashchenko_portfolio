@@ -533,6 +533,10 @@
   
   @media (max-width:430px) {
 
+    .blog {
+      text-align: start;
+    }
+
     .carousel {
         left: -672px;
     }
