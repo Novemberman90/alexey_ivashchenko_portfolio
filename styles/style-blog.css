@@ -587,7 +587,7 @@
     }
 
     .item__img {
-      width: 250px;
+      width: 220px;
     }
 
     .h5-text {
@@ -601,7 +601,7 @@
 
     .description-text {
       font-size: 12px;
-      width: 270px;
+      width: 220px;
     }
 
     .btn {
@@ -614,7 +614,7 @@
     
     .item,
     .item__wrapper {
-      width: 539px;
+      width: 531px;
       margin: 0px 0px 0px 0px;
     }
 
@@ -623,7 +623,7 @@
         left: -672px;
       }
       to {
-        left: -1240px;
+        left: -1200px;
       }
     }
     
@@ -633,7 +633,7 @@
     }
     
     @keyframes move-left {
-      from {left: -530px;}
+      from {left: -531px;}
       to {left: 0px;}
     }
     
