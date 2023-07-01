@@ -178,9 +178,24 @@ ITEM_ACTIVE.querySelector('.item__wrapper').innerHTML =
 
 });
 
+
 /*if (animation.animationName === "move-left") {
     CAROUSEL.classList.remove('transition-left');
 } else {
     CAROUSEL.classList.remove('transition-right');
 }*/
+
+
+// Swiper
+
+var swiper = new Swiper(".mySwiper", {
+  pagination: {
+    el: ".swiper-pagination",
+    type: "fraction",
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
  
