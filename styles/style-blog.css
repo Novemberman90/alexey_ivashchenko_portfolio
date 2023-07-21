@@ -118,12 +118,16 @@
 
 
 .card_item__title {
-  margin-bottom: 29px;
-  display: flex;
+    display: flex;
     flex-wrap: wrap;
     flex-direction: column;
 }
+.type-work,
+.description-text {
+  margin: 0px 0px 5px 0px;
+  font-size: 14px;
 
+}
 
 .item__img img {
   width: auto;
@@ -141,22 +145,22 @@
 
 .carousel {
   display: flex;
-  left: -990px;
+  left: -964px;
   position: relative;
   
 }
 
 .item,
 .item__wrapper {
-  width: 990px;
-  margin: 0px 10px 0px 10px;
+  width: 964px;
+  margin: 0px 0px 0px 0px;
 }
 @keyframes move-right {
   from {
-    left: -990px;
+    left: -964px;
   }
   to {
-    left: -1980px;
+    left: -1928px;
   }
 }
 
@@ -166,13 +170,13 @@
 }
 
 @keyframes move-left {
-  from {left: -990px;}
+  from {left: -964px;}
   to {left: 0px;}
 }
 
 .transition-left {
   animation-name: move-left;
-  animation-duration: 2s;
+  animation-duration: 1s;
 }
 
 
