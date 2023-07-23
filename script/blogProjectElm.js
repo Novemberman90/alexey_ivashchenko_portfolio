@@ -6,7 +6,7 @@ elemCard = [
         img: '../images/Koriel_Gpoup.jpg',
         type: 'foto',
         typeOfWorck: 'Type of worck: Commercial project',
-        description: 'This is my first commercial project. Currently working in test mode and work on the project continues. Created with: HTML5, CSS, Bootstrap, JS (it is planned to add interactive).',
+        description: 'This is my first commercial project. Project in test mode and work on the project continues. Created with: HTML5, CSS, Bootstrap, JS (it is planned to add interactive).',
         link: 'https://teal-kheer-2d823c.netlify.app/index.html',
     },
 
@@ -34,11 +34,11 @@ elemCard = [
 
     {
         id: 4,
-        name: 'Coffee App',
+        name: 'Shelter for pets',
         img: '../images/Shelter_Pets.jpg',
         type: 'foto',
         typeOfWorck: 'Type of worck: Test',
-        description: 'Coffee App. Test.First job for knowledge testing HTML, CSS, JS',
+        description: 'Shelter for pets. Test. First job for knowledge testing HTML, CSS, JS',
         link: 'https://thriving-chaja-464849.netlify.app',
 
     },
