@@ -6,7 +6,7 @@ elemCard = [
         img: '../images/Koriel_Gpoup.jpg',
         type: 'foto',
         typeOfWorck: 'Type of worck: Commercial project',
-        description: 'This is my first commercial project. Project in test mode and work on the project continues. Created with: HTML5, CSS, Bootstrap, JS (it is planned to add interactive).',
+        description: 'This is my first commercial project. Project in test mode. Created with: HTML5, CSS, Bootstrap, JS (it is planned to add interactive).',
         link: 'https://teal-kheer-2d823c.netlify.app/index.html',
     },
 
